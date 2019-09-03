@@ -1,4 +1,14 @@
 [[package]]
+name = "arc-swap"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "armfault"
 version = "0.1.0"
+dependencies = [
+ "arc-swap 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
+[metadata]
+"checksum arc-swap 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "854ede29f7a0ce90519fb2439d030320c6201119b87dab0ee96044603e1130b9"
